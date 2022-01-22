@@ -9,7 +9,8 @@ import Foundation
 
 print("Start...")
 
-Palindrome.runTests()
+//Palindrome.runTests()
+StringHelper.runTests()
 
 print("End...")
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B3A60C0B279BA35C008594BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A60C0A279BA35C008594BC /* main.swift */; };
 		B3B8C5D8279C737700D8CCB3 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5D7279C737700D8CCB3 /* Palindrome.swift */; };
+		B3B8C5DB279CAC4100D8CCB3 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5DA279CAC4100D8CCB3 /* StringHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		B3A60C07279BA35C008594BC /* InterviewPreparation-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "InterviewPreparation-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A60C0A279BA35C008594BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B3B8C5D7279C737700D8CCB3 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		B3B8C5DA279CAC4100D8CCB3 /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		B3A60C09279BA35C008594BC /* InterviewPreparation-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				B3B8C5D9279CABAE00D8CCB3 /* String Manipulations */,
 				B3B8C5D6279C734D00D8CCB3 /* Palindrome */,
 				B3A60C0A279BA35C008594BC /* main.swift */,
 			);
@@ -71,6 +74,14 @@
 				B3B8C5D7279C737700D8CCB3 /* Palindrome.swift */,
 			);
 			path = Palindrome;
+			sourceTree = "<group>";
+		};
+		B3B8C5D9279CABAE00D8CCB3 /* String Manipulations */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8C5DA279CAC4100D8CCB3 /* StringHelper.swift */,
+			);
+			path = "String Manipulations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B8C5DB279CAC4100D8CCB3 /* StringHelper.swift in Sources */,
 				B3B8C5D8279C737700D8CCB3 /* Palindrome.swift in Sources */,
 				B3A60C0B279BA35C008594BC /* main.swift in Sources */,
 			);
