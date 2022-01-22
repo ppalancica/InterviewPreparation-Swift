@@ -10,7 +10,8 @@ import Foundation
 print("Start...")
 
 //Palindrome.runTests()
-StringHelper.runTests()
+//StringHelper.runTests()
+NumberHelper.runTests()
 
 print("End...")
 
