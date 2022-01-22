@@ -5,7 +5,7 @@
 //  Created by Pavel Palancica on 1/22/22.
 //
 
-import Cocoa
+import Foundation
 
 class StringHelper {
     

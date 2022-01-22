@@ -11,6 +11,8 @@
 		B3B8C5D8279C737700D8CCB3 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5D7279C737700D8CCB3 /* Palindrome.swift */; };
 		B3B8C5DB279CAC4100D8CCB3 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5DA279CAC4100D8CCB3 /* StringHelper.swift */; };
 		B3B8C5DF279CB2BF00D8CCB3 /* NumberHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5DE279CB2BF00D8CCB3 /* NumberHelper.swift */; };
+		B3B8C5E2279CC08500D8CCB3 /* FindNthToLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5E1279CC08500D8CCB3 /* FindNthToLast.swift */; };
+		B3B8C5E4279CC13F00D8CCB3 /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5E3279CC13F00D8CCB3 /* LinkedListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		B3B8C5D7279C737700D8CCB3 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
 		B3B8C5DA279CAC4100D8CCB3 /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
 		B3B8C5DE279CB2BF00D8CCB3 /* NumberHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberHelper.swift; sourceTree = "<group>"; };
+		B3B8C5E1279CC08500D8CCB3 /* FindNthToLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNthToLast.swift; sourceTree = "<group>"; };
+		B3B8C5E3279CC13F00D8CCB3 /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		B3A60C09279BA35C008594BC /* InterviewPreparation-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				B3B8C5E0279CC03200D8CCB3 /* LinkedList Algorithms */,
 				B3B8C5DD279CB29A00D8CCB3 /* Bit Manipulations */,
 				B3B8C5D9279CABAE00D8CCB3 /* String Manipulations */,
 				B3B8C5D6279C734D00D8CCB3 /* Palindrome */,
@@ -93,6 +98,15 @@
 				B3B8C5DE279CB2BF00D8CCB3 /* NumberHelper.swift */,
 			);
 			path = "Bit Manipulations";
+			sourceTree = "<group>";
+		};
+		B3B8C5E0279CC03200D8CCB3 /* LinkedList Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8C5E1279CC08500D8CCB3 /* FindNthToLast.swift */,
+				B3B8C5E3279CC13F00D8CCB3 /* LinkedListNode.swift */,
+			);
+			path = "LinkedList Algorithms";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,10 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B8C5E4279CC13F00D8CCB3 /* LinkedListNode.swift in Sources */,
 				B3B8C5DB279CAC4100D8CCB3 /* StringHelper.swift in Sources */,
 				B3B8C5D8279C737700D8CCB3 /* Palindrome.swift in Sources */,
 				B3B8C5DF279CB2BF00D8CCB3 /* NumberHelper.swift in Sources */,
 				B3A60C0B279BA35C008594BC /* main.swift in Sources */,
+				B3B8C5E2279CC08500D8CCB3 /* FindNthToLast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

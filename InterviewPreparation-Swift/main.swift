@@ -11,7 +11,8 @@ print("Start...")
 
 //Palindrome.runTests()
 //StringHelper.runTests()
-NumberHelper.runTests()
+//NumberHelper.runTests()
+FindNthToLast.runTests()
 
 print("End...")
 
