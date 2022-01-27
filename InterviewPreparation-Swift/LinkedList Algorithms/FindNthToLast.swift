@@ -5,7 +5,7 @@
 //  Created by Pavel Palancica on 1/23/22.
 //
 
-import Cocoa
+import Foundation
 
 class FindNthToLast {
     

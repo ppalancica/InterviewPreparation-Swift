@@ -13,6 +13,7 @@
 		B3B8C5DF279CB2BF00D8CCB3 /* NumberHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5DE279CB2BF00D8CCB3 /* NumberHelper.swift */; };
 		B3B8C5E2279CC08500D8CCB3 /* FindNthToLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5E1279CC08500D8CCB3 /* FindNthToLast.swift */; };
 		B3B8C5E4279CC13F00D8CCB3 /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5E3279CC13F00D8CCB3 /* LinkedListNode.swift */; };
+		B3D3BDC327A345DA009D486B /* IntToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3BDC227A345DA009D486B /* IntToRoman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		B3B8C5DE279CB2BF00D8CCB3 /* NumberHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberHelper.swift; sourceTree = "<group>"; };
 		B3B8C5E1279CC08500D8CCB3 /* FindNthToLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNthToLast.swift; sourceTree = "<group>"; };
 		B3B8C5E3279CC13F00D8CCB3 /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
+		B3D3BDC227A345DA009D486B /* IntToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntToRoman.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		B3A60C09279BA35C008594BC /* InterviewPreparation-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				B3D3BDC127A345B6009D486B /* Number Conversions */,
 				B3B8C5E0279CC03200D8CCB3 /* LinkedList Algorithms */,
 				B3B8C5DD279CB29A00D8CCB3 /* Bit Manipulations */,
 				B3B8C5D9279CABAE00D8CCB3 /* String Manipulations */,
@@ -107,6 +110,14 @@
 				B3B8C5E3279CC13F00D8CCB3 /* LinkedListNode.swift */,
 			);
 			path = "LinkedList Algorithms";
+			sourceTree = "<group>";
+		};
+		B3D3BDC127A345B6009D486B /* Number Conversions */ = {
+			isa = PBXGroup;
+			children = (
+				B3D3BDC227A345DA009D486B /* IntToRoman.swift */,
+			);
+			path = "Number Conversions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 				B3B8C5DF279CB2BF00D8CCB3 /* NumberHelper.swift in Sources */,
 				B3A60C0B279BA35C008594BC /* main.swift in Sources */,
 				B3B8C5E2279CC08500D8CCB3 /* FindNthToLast.swift in Sources */,
+				B3D3BDC327A345DA009D486B /* IntToRoman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
