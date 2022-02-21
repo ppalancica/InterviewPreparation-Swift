@@ -5,16 +5,17 @@
 //  Created by Pavel Palancica on 1/27/22.
 //
 
-import Cocoa
+import Foundation
 
-class IntToRoman: NSObject {
+class IntToRoman {
 
     class func romanNumber(_ num: Int) -> String {
+        // Maybe guard num > 3999 || num < 1
         var n = num
         var result = ""
 
-        let values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
-        let romanLiterals = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
+        let values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+        let romanLiterals = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
 
         for i in 0..<values.count {
           while n >= values[i] {
