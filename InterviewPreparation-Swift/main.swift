@@ -13,6 +13,7 @@ print("Start...")
 //StringHelper.runTests()
 //NumberHelper.runTests()
 //FindNthToLast.runTests()
-IntToRoman.runTests()
+//IntToRoman.runTests()
+BinarySearch.runTests()
 
 print("End...")
