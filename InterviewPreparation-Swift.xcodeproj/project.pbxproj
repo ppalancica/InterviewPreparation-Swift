@@ -16,6 +16,7 @@
 		B3B8C5E2279CC08500D8CCB3 /* FindNthToLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5E1279CC08500D8CCB3 /* FindNthToLast.swift */; };
 		B3B8C5E4279CC13F00D8CCB3 /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C5E3279CC13F00D8CCB3 /* LinkedListNode.swift */; };
 		B3D3BDC327A345DA009D486B /* IntToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3BDC227A345DA009D486B /* IntToRoman.swift */; };
+		B3F764E127CEC845004615FB /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F764E027CEC845004615FB /* BubbleSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		B3B8C5E1279CC08500D8CCB3 /* FindNthToLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNthToLast.swift; sourceTree = "<group>"; };
 		B3B8C5E3279CC13F00D8CCB3 /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
 		B3D3BDC227A345DA009D486B /* IntToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntToRoman.swift; sourceTree = "<group>"; };
+		B3F764E027CEC845004615FB /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		B3A60C09279BA35C008594BC /* InterviewPreparation-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				B3F764DF27CEC838004615FB /* Sorting */,
 				B376CFB327CC217B0038B1E3 /* Searching */,
 				B307C37B27C438D2007ACF96 /* Trees */,
 				B3D3BDC127A345B6009D486B /* Number Conversions */,
@@ -140,6 +143,14 @@
 				B3D3BDC227A345DA009D486B /* IntToRoman.swift */,
 			);
 			path = "Number Conversions";
+			sourceTree = "<group>";
+		};
+		B3F764DF27CEC838004615FB /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				B3F764E027CEC845004615FB /* BubbleSort.swift */,
+			);
+			path = Sorting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				B3B8C5D8279C737700D8CCB3 /* Palindrome.swift in Sources */,
 				B3B8C5DF279CB2BF00D8CCB3 /* NumberHelper.swift in Sources */,
 				B3A60C0B279BA35C008594BC /* main.swift in Sources */,
+				B3F764E127CEC845004615FB /* BubbleSort.swift in Sources */,
 				B3B8C5E2279CC08500D8CCB3 /* FindNthToLast.swift in Sources */,
 				B3D3BDC327A345DA009D486B /* IntToRoman.swift in Sources */,
 			);

@@ -14,6 +14,7 @@ print("Start...")
 //NumberHelper.runTests()
 //FindNthToLast.runTests()
 //IntToRoman.runTests()
-BinarySearch.runTests()
+//BinarySearch.runTests()
+BubbleSort.runTests()
 
 print("End...")
